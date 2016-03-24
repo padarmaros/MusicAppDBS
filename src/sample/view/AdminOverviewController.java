@@ -24,7 +24,6 @@ public class AdminOverviewController {
     @FXML
     private Label albumLabel;
 
-
     @FXML
     private TextField nameTextField;
     @FXML
@@ -75,8 +74,8 @@ public class AdminOverviewController {
     private void showSongDetail(Song song) {
         if (song != null) {
             // Fill the labels with info from the person object.
-            nameTextField.setText(song.getName());
-            interpretTextField.setText(song.getInterpret());
+           // nameTextField.setText(song.getName());
+           // interpretTextField.setText(song.getInterpret());
           //  streetLabel.setText(person.getStreet());
            // postalCodeLabel.setText(Integer.toString(person.getPostalCode()));
            // cityLabel.setText(person.getCity());
@@ -85,8 +84,8 @@ public class AdminOverviewController {
             // birthdayLabel.setText(...);
         } else {
             // Person is null, remove all the text.
-            nameTextField.setText("");
-            interpretTextField.setText("");
+//            nameTextField.setText("");
+  //          interpretTextField.setText("");
             //streetLabel.setText("");
             //postalCodeLabel.setText("");
             //cityLabel.setText("");
